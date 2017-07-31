@@ -1,0 +1,258 @@
+.wpb_button, .wpb_content_element, ul.wpb_thumbnails-fluid>li {
+    margin-bottom: 0 !important;
+}
+.socicon  {
+	font-size: 12px !important;
+    background-color: #ffffff !important;
+}
+.news:after {
+    content: '';
+    display: block;
+    height: 90px;
+    background: #fff;
+    clip-path: polygon(0% 100%, 100% 0%, 100% 110%, 0% 100%);
+    -webkit-clip-path: polygon(0% 100%, 100% 0%, 100% 110%, 0% 100%);
+}
+.social-icons-lists.icons-background-rounded .socicon, .social-icons-lists.icons-background-square .socicon {
+    color: #80b412 !important ;
+}
+.main-menu a {
+    color: #fff !important;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+#widget-block {
+    margin-top: 15px;
+}
+#services {
+    background: #82cf1f;
+    position: absolute;
+    margin-top: -150px;
+	opacity: 0.9;
+    width: 1110px !important;
+    margin-left: auto;
+    margin-right: auto;
+	height: 150px;
+}
+.services-items {
+    border-left: 1px solid #fff;
+	border-right: 1px solid #fff;
+}
+
+#aboutus, #latest-news, #testimon {
+    display: block;
+    width: 975px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.custom-list li {
+  list-style: none;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 18px;
+}
+.about-text{
+	font-size: 14px;
+    margin-bottom: 20px;
+}
+.custom-list span {
+    background: #82cf1f;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 10px;
+    padding: 5px;
+}
+.testimonials h4{
+	color: #000 !important;
+	font-size: 40px !important;
+	text-transform: uppercase;
+}
+.zagol{
+	font-size:40px;
+	text-transform:uppercase;
+}
+.title-services {
+    text-align: center;
+    color: #fff;
+    line-height: 100%;
+}
+.news h4{
+	color:#fff;
+	text-transform:uppercase;
+	font-size: 40px;
+}
+div#footer-sidebar-1 {
+    width: 18%;
+}
+div#footer-sidebar-2 {
+    width: 50%;
+}
+div#footer-sidebar-3 {
+    width: 25%;
+}
+/*block latest-news*/
+.wpcu_block_title {
+    display: none;
+}
+.insideframe table {
+    /* display: block; */
+    width: 100%;
+    height: 315px;
+    overflow: hidden;
+}
+.wpcufpn_container li {
+    margin-bottom: 15px !important;
+    background: #fff;
+}
+.wpcufpn_container li:nth-child(2n) table .wpcu-front-box.left{
+    display: flex;
+    float: right;
+    flex-direction: column-reverse;
+}
+.wpcufpn_container li:nth-child(2n) table .wpcu-front-box.right{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.wpcufpn_container .text span {
+    max-height: 100% !important;
+	line-height: 24px;
+	    color: #000;
+}
+.wpcufpn_container .read-more {
+    display: block;
+    color: #fff !important;
+    font-size: 13px;
+    text-align: center !important;
+    width: 100px;
+    float: right;
+    background: #82cf1f;
+    padding: 5px;
+    text-transform: uppercase;
+}
+.wpcu-front-box.left {
+    display: block;
+    width: 480px;
+    /* padding: 15px; */
+    overflow: hidden;
+    border: 15px solid #fff;
+}.wpcu-front-box.right {
+    margin: 0;
+    padding: 20px !important;
+}
+.wpcufpn_container .title span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    font-size: 23px;
+    text-transform: uppercase;
+}
+.wpcufpn_container .date {
+    color: #666;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+/*end latest-news*/
+@media screen and (min-width: 1025px) and (max-width: 1279px){
+	div#widget-block {
+    margin-top: 15px;
+    width: 25%;
+}
+.main-header .logo-wrap {
+    width: 25%;
+}
+}
+@media screen and (min-width: 1280px){
+	div#widget-block {
+    margin-top: 15px;
+    width: 35%;
+}
+.main-header .logo-wrap {
+    width: 25%;
+}
+}
+@media only screen and (max-width: 414px){
+	#services {
+    display: none;
+}
+.wpcu-front-box.left{
+	    float: left;
+    width: 100%;
+    display: block;
+}
+.wpcufpn_container .title {
+    color: #333;
+    font-weight: bold;
+    font-size: 2.15em !important;
+    text-align: left;
+    line-height: 100%;
+    max-width: 100% !important;
+    overflow: hidden;
+}
+.wpcufpn_container.default .wpcu-front-box.right{
+	    display: block;
+    width: 100%;
+}
+#aboutus, #latest-news, #testimon {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.zagol {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.testimonials h4{
+	color: #000 !important;
+	font-size: 20px !important;
+	text-transform: uppercase;
+}
+.news h4{
+	color:#fff;
+	text-transform:uppercase;
+	font-size: 20px;
+}
+#footer-sidebar-2, #footer-sidebar-1, #footer-sidebar-3{
+	width: 100% !important;
+    text-align: center;
+}
+.news:after {
+    content: '';
+    display: block;
+    height: 90px;
+    background: #fff;
+    clip-path: polygon(0% 100%, 100% 40%, 100% 100%, 0% 100%);
+    -webkit-clip-path: polygon(0% 100%, 100% 40%, 100% 100%, 0% 100%);
+}
+}
+@media screen and (min-width: 770px) and (max-width:1024px){
+	#services {
+    background: #82cf1f;
+    position: absolute;
+    margin-top: -19%;
+    width: 100% !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+#aboutus, #latest-news, #testimon {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wpcu-front-box.left {
+    display: block;
+    width: 395px;
+    height: auto;
+    /* padding: 15px; */
+    overflow: hidden;
+    border: 15px solid #fff;
+}
+#footer-sidebar-2, #footer-sidebar-1, #footer-sidebar-3{
+	width: 100% !important;
+    text-align: center;
+}
+}
